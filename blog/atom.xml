@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://VicOrbonII.github.io/blog</id>
+    <title>Stock Knowledge Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://VicOrbonII.github.io/blog"/>
+    <subtitle>Stock Knowledge Blog</subtitle>
+    <icon>https://VicOrbonII.github.io/img/favicon.ico</icon>
+</feed>
