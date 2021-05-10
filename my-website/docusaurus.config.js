@@ -1,80 +1,71 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Stock Knowledge',
+  tagline: 'Play to Learn, learn to play!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Stock Knowledge',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
+        
+        
       },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+     
     },
     footer: {
-      style: 'dark',
+      
+      style: 'light',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+       
         {
           title: 'Community',
           items: [
+            
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/groups/1118893898545259?_rdc=1&_rdr',
+      
+              
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
+              href: 'https://github.com/Stock-Knowledge-Engineering',
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              
+              
             },
+            {
+              href: 'https://twitter.com/StockKnowledge_',
+              label: 'Twitter',
+              
+              
+            },
+             {
+              
+              href: 'https://www.instagram.com/stockknowledgetool/?hl=en',
+              label: 'Instagram',
+              
+              
+            },
+            {
+              href: 'https://www.linkedin.com/company/stock-knowledge/mycompany',
+              label: 'LinkIn',
+            
+              
+            },
+           
           ],
         },
+        
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stock Knowledge, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -88,7 +79,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',

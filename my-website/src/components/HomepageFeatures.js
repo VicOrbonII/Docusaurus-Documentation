@@ -1,38 +1,50 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import { baseUrl } from '../../docusaurus.config';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Stock Knowledge Open Source',
+    Svg: require('../../static/img/logo.svg').default,  
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Having an open source solution in our business
+      process, we make our technological progress faster 
+      and more effecient when a potential million developers
+      from around the world would contribute to our project as 
+      opposed to having a tiny group of developers we have
+      as a startup company. your contribution will greatly help us build
+      a more reliable, secure, cost-effecient, and flexible learning platform.
       </>
-    ),
+       ),
+
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Experiential Learning Technology That Students Love',
+    Svg: require('../../static/img/02 - user.svg').default,  
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+    Stock Knowledge brings innovation and education together to provide
+    accesible experiential learning technology that students love.
+    We make boring school lessons fun and interesting through Extended
+    Reality, Gamification, and Adaptive Learning.
+
+    
+    Educator and phycist Anna Marie Benzon launched Stock Knowledge 
+    to focus on how young learners could foster better appreciation 
+    for their school subjects after realizing tha traditional methods 
+    were not as engaging anymore in the age of internet.
+
+    Stock Knowledge is proud to be part of the Unicef Innovation Fund portfolio
+    and supported by the Philippines' Department of Education.
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+
+  
+  
+  
 ];
 
 function Feature({Svg, title, description}) {
@@ -41,7 +53,7 @@ function Feature({Svg, title, description}) {
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--justify padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -53,7 +65,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className="line">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
